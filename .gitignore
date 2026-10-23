@@ -1,0 +1,28 @@
+# Сборочные директории и артефакты
+build/
+bin/
+lib/
+*.o
+*.obj
+*.exe
+*.AppImage
+
+# Qt Creator и CMake временные файлы
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+.qmake.stash
+
+# Настройки IDE (VS Code, CLion, Qt Creator)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+.directory
